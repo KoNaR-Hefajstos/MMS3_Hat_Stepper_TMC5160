@@ -515,7 +515,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MMS3_hat_templates.kicad_pro",
+    "filename": "MMS3_Hat_Stepper_TMC5160.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1233,18 +1233,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "MMS3_hat_templates.kicad_sch",
-        "name": "MMS3_hat_templates",
+        "filename": "MMS3_Hat_Stepper_TMC5160.kicad_sch",
+        "name": "MMS3_Hat_Stepper_TMC5160",
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "#FLG401-402,#FLG601-602,#PWR109-110,#PWR301-317,#PWR401-403,#PWR505,#PWR601-602,#PWR701-703,C301,C601-602,CN101,CN401,CN601,D101,D301,D401-402,D601,J301,J601-602,R101-102,R301-313,R401-402,R601-602,U102,U301-302,U401-402,U601-602",
+    "used_designators": "#FLG401-402,#FLG601-602,#PWR109-110,#PWR301-317,#PWR401-403,#PWR505,#PWR601-604,#PWR701-703,C301,C601-603,CN101,CN401,CN601,D101,D301,D401-402,D601,J301,J601-602,Q601-602,R101-102,R301-313,R401-402,R601-602,U102,U301-302,U401-402,U601-602",
     "variants": []
   },
   "sheets": [
     [
       "6596548a-44e0-46d8-8624-fd71cf4a3e17",
-      "MMS3_hat_templates"
+      "MMS3_Hat_Stepper_TMC5160"
     ],
     [
       "fdb595ff-e94b-4e80-8fe7-e7d367588ab2",
@@ -1264,7 +1264,7 @@
     ],
     [
       "d284f2dd-42e5-44a6-a666-181032538480",
-      "Untitled Sheet"
+      "Sterownik"
     ],
     [
       "1d82da7f-4f6b-4f08-8609-80dacdfa2ceb",

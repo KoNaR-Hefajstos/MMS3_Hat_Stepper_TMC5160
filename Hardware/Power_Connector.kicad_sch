@@ -2133,7 +2133,7 @@
 			(uuid "5dbe4662-d60c-4566-b1fc-0f2eba49eb8a")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "D402")
 					(unit 1)
@@ -2401,7 +2401,7 @@
 			(uuid "6766a957-358b-4218-97ab-84ce9f835cef")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "R401")
 					(unit 1)
@@ -2511,7 +2511,7 @@
 			(uuid "c8088f6b-a9cb-4c72-96e0-5b2d7839e219")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "U401")
 					(unit 1)
@@ -2589,7 +2589,7 @@
 			(uuid "eb58cc57-b531-4c94-ab5e-65f631a54c4a")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "#PWR0403")
 					(unit 1)
@@ -2667,7 +2667,7 @@
 			(uuid "02a7297b-8f3b-403b-acc8-85c717a0d70b")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "#PWR0402")
 					(unit 1)
@@ -2776,7 +2776,7 @@
 			(uuid "6bb15863-56ec-4b00-8fe5-92918e90c618")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "CN401")
 					(unit 1)
@@ -2854,7 +2854,7 @@
 			(uuid "d48ae1c8-0347-42cd-9bc8-725ceb15c878")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "#FLG0401")
 					(unit 1)
@@ -2932,7 +2932,7 @@
 			(uuid "e26b270d-0c52-4a30-a649-0126fea0f69c")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "#PWR0401")
 					(unit 1)
@@ -3278,7 +3278,7 @@
 			(uuid "2af597b7-69fd-4d35-ad91-89b47778c17a")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "D401")
 					(unit 1)
@@ -3356,7 +3356,7 @@
 			(uuid "31b1a523-a3d2-4312-afed-f9165f44915f")
 		)
 		(instances
-			(project "MMS3_hat_templates"
+			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "#FLG0402")
 					(unit 1)
