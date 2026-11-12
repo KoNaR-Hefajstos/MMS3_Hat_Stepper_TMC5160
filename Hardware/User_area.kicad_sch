@@ -564,7 +564,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 83.82) (xy 194.31 83.82)
+			(xy 193.04 82.55) (xy 195.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -632,6 +632,16 @@
 		)
 		(uuid "bb936df8-7b3b-4288-973c-8345a953f6fe")
 	)
+	(wire
+		(pts
+			(xy 193.04 83.82) (xy 186.69 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca849981-8f73-4d64-8835-9d75e3004666")
+	)
 	(bus
 		(pts
 			(xy 137.16 74.93) (xy 138.43 76.2)
@@ -661,6 +671,16 @@
 			(type default)
 		)
 		(uuid "f6e417b0-8464-4d89-899c-08dff82c9da4")
+	)
+	(wire
+		(pts
+			(xy 193.04 82.55) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd89cdf3-38c2-4b8b-85d4-e2bb09e1e748")
 	)
 	(label "Chainbus.MISO"
 		(at 157.48 59.69 180)
@@ -1034,7 +1054,7 @@
 		)
 	)
 	(sheet
-		(at 194.31 36.83)
+		(at 195.58 35.56)
 		(size 68.58 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1050,7 +1070,7 @@
 		)
 		(uuid "d284f2dd-42e5-44a6-a666-181032538480")
 		(property "Sheetname" "Sterownik"
-			(at 194.31 36.1184 0)
+			(at 195.58 34.8484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1061,7 +1081,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 194.31 89.4846 0)
+			(at 195.58 88.2146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1072,8 +1092,68 @@
 			)
 		)
 		(pin "+24V" output
-			(at 194.31 83.82 180)
+			(at 195.58 82.55 180)
 			(uuid "2b30b5d0-e13f-4614-9ba4-bed36921e3f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CSN" input
+			(at 195.58 53.34 180)
+			(uuid "9eacc73b-13af-4225-bbe4-7bd598453f8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIAG0" input
+			(at 195.58 69.85 180)
+			(uuid "59b67447-e2c1-48ef-b74e-bf7fd54bb441")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIAG1" input
+			(at 195.58 67.31 180)
+			(uuid "6e3f1f23-b574-4916-94cb-29eaa94555c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 195.58 55.88 180)
+			(uuid "d135723d-cf9c-4302-9a8b-6c9abda6f80d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 195.58 58.42 180)
+			(uuid "29e68365-227d-4775-be9c-b27404bd9780")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" input
+			(at 195.58 60.96 180)
+			(uuid "6cabcfab-476c-4b2a-948c-6e11246f0249")
 			(effects
 				(font
 					(size 1.27 1.27)
