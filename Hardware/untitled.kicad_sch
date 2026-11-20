@@ -5,6 +5,175 @@
 	(uuid "998f47a8-7e3f-481a-a48a-78ca93e8cf55")
 	(paper "A4")
 	(lib_symbols
+		(symbol "LCSC Imported Plugin:GRM21BR61H106KE43L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GRM21BR61H106KE43L"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LCSC Plugin:C440198_C0805"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "GRM21BR61H106KE43L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C440198"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "muRata(村田)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM21BR61H106KE43L_1_1"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LCSC Imported Plugin:TMC5160A-TA-T"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1253,304 +1422,6 @@
 				)
 			)
 			(symbol "0603,100nF_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 3.175)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.175)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_JLCPCB-Capacitors:0603,10uF"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.032 1.668 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10uF"
-				(at 2.032 -0.3782 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:C_0603"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C19702"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Stock" "9881407"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Price" "0.009USD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Minimum Qty" "20"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Attrition Qty" "10"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part" "CL10A106KP8NNNC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage Rated" "10V"
-				(at 2.032 -2.0462 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Capacitance" "10uF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temperature Coefficient" "X5R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0603,10uF_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy 1.27 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0603,10uF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.175)
@@ -5004,6 +4875,12 @@
 		(uuid "2d89f133-b0a6-4e55-8a7d-c48c347b2fab")
 	)
 	(junction
+		(at 130.81 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34294a84-56a7-4693-a319-a4b5e8bd033c")
+	)
+	(junction
 		(at 233.68 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5056,12 +4933,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f8f9def-2b25-4df2-9df8-a8d08c529720")
-	)
-	(junction
-		(at 132.08 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80e51126-e3d7-498f-b1ca-9e38a66091e4")
 	)
 	(junction
 		(at 186.69 140.97)
@@ -5275,7 +5146,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 175.26) (xy 147.32 175.26)
+			(xy 115.57 175.26) (xy 130.81 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5462,16 +5333,6 @@
 			(type default)
 		)
 		(uuid "53650f7b-b9e2-4cdd-b603-c023c56451d6")
-	)
-	(wire
-		(pts
-			(xy 115.57 175.26) (xy 132.08 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59516c60-d4dd-44fd-873e-5de4d6c616fc")
 	)
 	(wire
 		(pts
@@ -5872,6 +5733,16 @@
 			(type default)
 		)
 		(uuid "d65b14ab-4401-4dba-bd2e-6d5c2ab1c73c")
+	)
+	(wire
+		(pts
+			(xy 130.81 175.26) (xy 147.32 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b752b1-4c09-4b17-9779-e0e3916cbf40")
 	)
 	(wire
 		(pts
@@ -6524,7 +6395,7 @@
 		)
 		(uuid "b49bbcf2-e6a0-4cb9-b4c9-42a7856ccb88")
 	)
-	(label "CA2"
+	(label "CB2"
 		(at 173.99 105.41 0)
 		(effects
 			(font
@@ -7897,242 +7768,6 @@
 			(project "MMS3_Hat_Stepper_TMC5160"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/1d82da7f-4f6b-4f08-8609-80dacdfa2ceb/d284f2dd-42e5-44a6-a666-181032538480"
 					(reference "U601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,10uF")
-		(at 132.08 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33415d59-bf36-4107-9da5-ac7b4ee8864f")
-		(property "Reference" "C615"
-			(at 134.62 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 134.62 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 130.302 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "9881407"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.009USD"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "CL10A106KP8NNNC"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rated" "10V"
-			(at 134.62 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "10uF"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 132.08 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "61a954a4-a702-4aed-974d-2eacc80f67c0")
-		)
-		(pin "1"
-			(uuid "3ee9929b-bf89-48c0-be2d-dcce66a4d8af")
-		)
-		(instances
-			(project "MMS3_Hat_Stepper_TMC5160"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/1d82da7f-4f6b-4f08-8609-80dacdfa2ceb/d284f2dd-42e5-44a6-a666-181032538480"
-					(reference "C615")
 					(unit 1)
 				)
 			)
@@ -10307,6 +9942,214 @@
 		)
 	)
 	(symbol
+		(lib_id "LCSC Imported Plugin:GRM21BR61H106KE43L")
+		(at 147.32 180.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63506408-72d2-46bb-a67b-0dab2d00eccd")
+		(property "Reference" "C615"
+			(at 150.622 178.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GRM21BR61H106KE43L"
+			(at 151.13 181.6099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LCSC Plugin:C440198_C0805"
+			(at 137.16 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
+			(at 147.447 178.054 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "GRM21BR61H106KE43L"
+			(at 147.32 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 147.32 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 147.32 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6d012b3-4c88-4e15-bdc3-af76b61090db")
+		)
+		(pin "2"
+			(uuid "e7d3a2fe-1f20-44cd-adfc-de041e61fdbc")
+		)
+		(instances
+			(project "MMS3_Hat_Stepper_TMC5160"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/1d82da7f-4f6b-4f08-8609-80dacdfa2ceb/d284f2dd-42e5-44a6-a666-181032538480"
+					(reference "C615")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Imported Plugin:GRM21BR61H106KE43L")
+		(at 130.81 180.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6916c1ca-060f-4acb-ae1f-edbc7adc2939")
+		(property "Reference" "C606"
+			(at 134.366 178.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GRM21BR61H106KE43L"
+			(at 136.652 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC Plugin:C440198_C0805"
+			(at 140.97 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
+			(at 130.683 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "GRM21BR61H106KE43L"
+			(at 130.81 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 130.81 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 130.81 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f02d0679-c9c1-46fb-8d1a-31bee00f01d7")
+		)
+		(pin "2"
+			(uuid "5a139d40-8573-43e9-bc1d-21bac6ea8efd")
+		)
+		(instances
+			(project "MMS3_Hat_Stepper_TMC5160"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/1d82da7f-4f6b-4f08-8609-80dacdfa2ceb/d284f2dd-42e5-44a6-a666-181032538480"
+					(reference "C606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,220nF")
 		(at 213.36 119.38 90)
 		(unit 1)
@@ -10777,7 +10620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 182.88 0)
+		(at 130.81 185.42 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10789,7 +10632,7 @@
 		(fields_autoplaced yes)
 		(uuid "77d0cb70-aa7d-4b56-899a-1a6747d1e8c2")
 		(property "Reference" "#PWR0611"
-			(at 132.08 189.23 0)
+			(at 130.81 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10800,7 +10643,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 187.96 0)
+			(at 130.81 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10810,7 +10653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 182.88 0)
+			(at 130.81 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10821,7 +10664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 182.88 0)
+			(at 130.81 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10832,7 +10675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 182.88 0)
+			(at 130.81 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12054,242 +11897,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,10uF")
-		(at 147.32 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ce384ba-cb70-4e09-8c15-a76c0fe8928b")
-		(property "Reference" "C616"
-			(at 149.86 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 149.86 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 145.542 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "9881407"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.009USD"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "CL10A106KP8NNNC"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rated" "10V"
-			(at 149.86 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "10uF"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 147.32 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e30398e9-97cc-447e-bb8d-5cd0fac9a0f8")
-		)
-		(pin "1"
-			(uuid "1595040c-1013-43b9-897f-ea5a2df32631")
-		)
-		(instances
-			(project "MMS3_Hat_Stepper_TMC5160"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/1d82da7f-4f6b-4f08-8609-80dacdfa2ceb/d284f2dd-42e5-44a6-a666-181032538480"
-					(reference "C616")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc_imported:AO4882_C49020633")
 		(at 226.06 43.18 0)
 		(unit 2)
@@ -12382,10 +11989,10 @@
 			(uuid "d1c30a8c-6ef8-4fc4-9d35-4de265e0cbe6")
 		)
 		(pin "7"
-			(uuid "59fa6c1b-3f2e-4859-aca4-7ffc1e3ca66a")
+			(uuid "59fa6c1b-3f2e-4859-aca4-7ffc1e3ca66c")
 		)
 		(pin "1"
-			(uuid "fb9c3eef-7bc7-44b3-b3b5-18fadc2fba0b")
+			(uuid "fb9c3eef-7bc7-44b3-b3b5-18fadc2fba0d")
 		)
 		(pin "4"
 			(uuid "a365c2b3-9190-4568-bffd-5223bbe57e4d")
@@ -12394,13 +12001,13 @@
 			(uuid "bce66517-6d3a-4f90-b985-2a4362992b55")
 		)
 		(pin "8"
-			(uuid "a3debc48-0fe9-4fc2-a025-73c9bd88042c")
+			(uuid "a3debc48-0fe9-4fc2-a025-73c9bd88042e")
 		)
 		(pin "6"
 			(uuid "bc0372b5-c62d-45ec-b4e4-6886c9f58bff")
 		)
 		(pin "2"
-			(uuid "87a6ff7c-a0be-46cc-ac60-ed8f82d9dc1a")
+			(uuid "87a6ff7c-a0be-46cc-ac60-ed8f82d9dc1c")
 		)
 		(instances
 			(project "MMS3_Hat_Stepper_TMC5160"
@@ -12586,19 +12193,19 @@
 			(uuid "56132ccb-52f0-4e27-b302-a9f8221f39d1")
 		)
 		(pin "6"
-			(uuid "59884f77-6590-4bf7-8dd0-4a9968dce8ef")
+			(uuid "59884f77-6590-4bf7-8dd0-4a9968dce8f0")
 		)
 		(pin "4"
-			(uuid "291c626b-3a74-4f33-b676-dd10460eaafd")
+			(uuid "291c626b-3a74-4f33-b676-dd10460eaafe")
 		)
 		(pin "8"
 			(uuid "c39432f6-045b-4e9c-a472-f604b88d0500")
 		)
 		(pin "5"
-			(uuid "612fcd8c-8596-4971-8199-4b3b2dffc853")
+			(uuid "612fcd8c-8596-4971-8199-4b3b2dffc854")
 		)
 		(pin "3"
-			(uuid "d177fb40-1ff7-42e3-a978-5ba6a8673ff5")
+			(uuid "d177fb40-1ff7-42e3-a978-5ba6a8673ff6")
 		)
 		(pin "7"
 			(uuid "cf7a9597-6621-4806-a5b0-366a5ec45936")
@@ -13038,7 +12645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 182.88 0)
+		(at 147.32 185.42 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13050,7 +12657,7 @@
 		(fields_autoplaced yes)
 		(uuid "96335a76-1bd6-4cb6-a0d1-ca91a12f7cea")
 		(property "Reference" "#PWR0612"
-			(at 147.32 189.23 0)
+			(at 147.32 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13061,7 +12668,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 187.96 0)
+			(at 147.32 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13071,7 +12678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 182.88 0)
+			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13082,7 +12689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 182.88 0)
+			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13093,7 +12700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 182.88 0)
+			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14090,19 +13697,19 @@
 			(uuid "504cfb86-5ab2-4efd-b00e-243f7f434387")
 		)
 		(pin "6"
-			(uuid "59884f77-6590-4bf7-8dd0-4a9968dce8ee")
+			(uuid "59884f77-6590-4bf7-8dd0-4a9968dce8f1")
 		)
 		(pin "4"
-			(uuid "291c626b-3a74-4f33-b676-dd10460eaafc")
+			(uuid "291c626b-3a74-4f33-b676-dd10460eaaff")
 		)
 		(pin "8"
 			(uuid "c73feb3b-6158-4b07-b5ca-ba0302f5612b")
 		)
 		(pin "5"
-			(uuid "612fcd8c-8596-4971-8199-4b3b2dffc852")
+			(uuid "612fcd8c-8596-4971-8199-4b3b2dffc855")
 		)
 		(pin "3"
-			(uuid "d177fb40-1ff7-42e3-a978-5ba6a8673ff4")
+			(uuid "d177fb40-1ff7-42e3-a978-5ba6a8673ff7")
 		)
 		(pin "7"
 			(uuid "55c6f535-b798-4d92-aef3-265bda07f215")
@@ -14453,10 +14060,10 @@
 			(uuid "e3e85d02-3d6a-4638-b1b1-e37fdd8bd307")
 		)
 		(pin "7"
-			(uuid "59fa6c1b-3f2e-4859-aca4-7ffc1e3ca66b")
+			(uuid "59fa6c1b-3f2e-4859-aca4-7ffc1e3ca66d")
 		)
 		(pin "1"
-			(uuid "fb9c3eef-7bc7-44b3-b3b5-18fadc2fba0c")
+			(uuid "fb9c3eef-7bc7-44b3-b3b5-18fadc2fba0e")
 		)
 		(pin "4"
 			(uuid "2f45951e-3dfc-4d92-b1a6-a720233458a8")
@@ -14465,13 +14072,13 @@
 			(uuid "fdfe9ed7-aa0f-4734-b0c9-d3775b37149a")
 		)
 		(pin "8"
-			(uuid "a3debc48-0fe9-4fc2-a025-73c9bd88042d")
+			(uuid "a3debc48-0fe9-4fc2-a025-73c9bd88042f")
 		)
 		(pin "6"
 			(uuid "bd672122-c0ed-4054-b00b-b8b9903d0171")
 		)
 		(pin "2"
-			(uuid "87a6ff7c-a0be-46cc-ac60-ed8f82d9dc1b")
+			(uuid "87a6ff7c-a0be-46cc-ac60-ed8f82d9dc1d")
 		)
 		(instances
 			(project "MMS3_Hat_Stepper_TMC5160"
