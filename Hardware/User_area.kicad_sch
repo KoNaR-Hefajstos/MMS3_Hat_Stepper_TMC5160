@@ -562,16 +562,6 @@
 		)
 		(uuid "94ca7573-e0ea-4f79-9fe1-fc154d2f9c49")
 	)
-	(wire
-		(pts
-			(xy 193.04 82.55) (xy 195.58 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95094f13-7af9-4246-9063-3fa3c141b598")
-	)
 	(bus
 		(pts
 			(xy 138.43 45.72) (xy 138.43 48.26)
@@ -612,6 +602,16 @@
 		)
 		(uuid "b06f64a3-cda9-42db-a380-928cc2b43818")
 	)
+	(wire
+		(pts
+			(xy 186.69 97.79) (xy 195.58 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb029239-d929-45de-ae55-b70e1281b52c")
+	)
 	(bus
 		(pts
 			(xy 138.43 59.69) (xy 138.43 62.23)
@@ -634,7 +634,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 83.82) (xy 186.69 83.82)
+			(xy 186.69 76.2) (xy 195.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -671,16 +671,6 @@
 			(type default)
 		)
 		(uuid "f6e417b0-8464-4d89-899c-08dff82c9da4")
-	)
-	(wire
-		(pts
-			(xy 193.04 82.55) (xy 193.04 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd89cdf3-38c2-4b8b-85d4-e2bb09e1e748")
 	)
 	(label "Chainbus.MISO"
 		(at 157.48 59.69 180)
@@ -786,7 +776,7 @@
 	)
 	(hierarchical_label "VIN_BRD"
 		(shape input)
-		(at 186.69 83.82 180)
+		(at 186.69 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -976,6 +966,85 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 186.69 97.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d45bf3ca-26c8-42d8-a225-7ab78447a3fd")
+		(property "Reference" "#PWR0704"
+			(at 186.69 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 186.69 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 186.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1ec3996-7522-42ec-84ee-38f0b5f8cad7")
+		)
+		(instances
+			(project "MMS3_Hat_Stepper_TMC5160"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/1d82da7f-4f6b-4f08-8609-80dacdfa2ceb"
+					(reference "#PWR0704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 133.35 129.54 0)
 		(mirror y)
 		(unit 1)
@@ -1055,12 +1124,11 @@
 	)
 	(sheet
 		(at 195.58 35.56)
-		(size 68.58 52.07)
+		(size 68.58 64.77)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1081,7 +1149,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 195.58 88.2146 0)
+			(at 234.95 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1092,7 +1160,7 @@
 			)
 		)
 		(pin "+24V" output
-			(at 195.58 82.55 180)
+			(at 195.58 76.2 180)
 			(uuid "2b30b5d0-e13f-4614-9ba4-bed36921e3f4")
 			(effects
 				(font
@@ -1111,7 +1179,7 @@
 				(justify left)
 			)
 		)
-		(pin "DIAG0" input
+		(pin "DIAG0" output
 			(at 195.58 69.85 180)
 			(uuid "59b67447-e2c1-48ef-b74e-bf7fd54bb441")
 			(effects
@@ -1121,7 +1189,7 @@
 				(justify left)
 			)
 		)
-		(pin "DIAG1" input
+		(pin "DIAG1" output
 			(at 195.58 67.31 180)
 			(uuid "6e3f1f23-b574-4916-94cb-29eaa94555c2")
 			(effects
@@ -1154,6 +1222,76 @@
 		(pin "SDO" input
 			(at 195.58 60.96 180)
 			(uuid "6cabcfab-476c-4b2a-948c-6e11246f0249")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCA_DCIN_CFG5" input
+			(at 195.58 85.09 180)
+			(uuid "dcaf3b55-bc88-4806-87bd-528edff7999b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCB_DCEN_CFG4" input
+			(at 195.58 87.63 180)
+			(uuid "5b424833-b713-4ef3-ba0f-b1a50e16e5c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFL_STEP" input
+			(at 195.58 90.17 180)
+			(uuid "42774c71-c442-4907-8010-d96bf9c91926")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFR_DIR" input
+			(at 195.58 92.71 180)
+			(uuid "38b77d2d-1412-4596-8e5f-fb8e060c413c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_MODE" input
+			(at 195.58 95.25 180)
+			(uuid "52cb522f-ee9d-4f91-a8a1-80870c7e0da1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MODE" input
+			(at 195.58 97.79 180)
+			(uuid "d1d479b4-4712-4594-8c50-ee25a9a14cab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCN_DCO_CFG6" input
+			(at 195.58 82.55 180)
+			(uuid "b885abac-7630-44dc-8ebd-919877e41e3a")
 			(effects
 				(font
 					(size 1.27 1.27)
